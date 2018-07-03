@@ -1,0 +1,19 @@
+.indiv-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+
+.found-doctor {
+  justify-content: center;
+  margin: 0 auto;
+  height: 30%;
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+

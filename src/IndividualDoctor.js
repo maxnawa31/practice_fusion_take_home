@@ -1,15 +1,18 @@
 import React from 'react';
 import SimiliarDoctors from './SimiliarDoctors';
+import './IndividualDoctor.css'
 const IndividualDoctor = (props) => {
   return(
-    <div>
-    <div>
-      {props.foundDoctor[0].name}
-      {props.foundDoctor[0].specialty}
-      {props.foundDoctor[0].location}
-      {props.foundDoctor[0].phone}
+    <div className='indiv-container'>
+    <div className='found-doctor'>
+      <h3>You are now viewing: {props.foundDoctor[0].name}</h3>
+      {/* <p>{props.foundDoctor[0].name}</p> */}
+      <p>Specialty: {props.foundDoctor[0].specialty}</p>
+      <p>Location: {props.foundDoctor[0].location}</p>
+      <p>Phone Number: {props.foundDoctor[0].phone}</p>
     </div>
-    <div>
+    <h3>Doctors who also specialize in {props.foundDoctor[0].speciality}</h3>
+    <div className = 'similiar-container'>
       <SimiliarDoctors
         allDoctors = {props.allDoctors}
         specialty = {props.foundDoctor[0].specialty}

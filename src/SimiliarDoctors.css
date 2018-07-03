@@ -1,0 +1,17 @@
+.similiar-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 50%;
+  margin-left: 10%;
+}
+
+
+.similiar-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 5%;
+}

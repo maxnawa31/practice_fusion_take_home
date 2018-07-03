@@ -4,7 +4,7 @@ import './DoctorList.css'
 const DoctorList = (props) => {
   let doctors = props.allDoctors.map(doctor => {
     return (
-      <div className = 'doctor-card'>
+      <div key={doctor.id} className = 'doctor-card'>
         <div>
           {doctor.name}
         </div>

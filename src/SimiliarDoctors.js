@@ -6,7 +6,7 @@ const SimiliarDoctors = (props) => {
     return (doctor.specialty === props.specialty && doctor.id !== props.indivDoctorId)
   }).map(similiarDoctor => {
     return (
-      <div className='similiar-card'>
+      <div key ={similiarDoctor.id} className='similiar-card'>
         <p>{similiarDoctor.name}</p>
         <p>{similiarDoctor.specialty}</p>
         <button className='button-style-similiar'><Link to = {`/doctors/${similiarDoctor.id}`}> See more about this doctor</Link></button>

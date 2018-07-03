@@ -6,6 +6,18 @@
   margin-left: 10%;
 }
 
+.button-style-similiar {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  font-size: 1rem;
+  border-radius: 5px;
+
+}
+.button-style-similiar a {
+  text-decoration: none;
+}
 
 .similiar-container {
   display: flex;
@@ -13,5 +25,5 @@
   width: 100%;
   text-align: center;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 2%;
 }

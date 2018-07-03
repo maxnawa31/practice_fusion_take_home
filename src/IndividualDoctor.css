@@ -4,6 +4,14 @@
   height: 100vh;
 }
 
+.see-all-doctors {
+  margin-left: 2%;
+}
+
+.similiar-doctor-headline {
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+}
 
 
 .found-doctor {
